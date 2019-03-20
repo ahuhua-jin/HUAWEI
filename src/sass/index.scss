@@ -1,0 +1,498 @@
+/*公共*/
+#VerNav-con,#MainNav-logo,#Banner-con,#ClassNav,#HotSgoods,#QuRecom,#RotationImg,#Phone,#NoteCom,#QuaFlat,#SmWear,#SmHome,#AdvertMap,#HotSell,#BrandAcc,#SadvertMap,#footCon {
+  width: 1202px;
+  margin: 0 auto;
+}
+/*页面加载动画*/
+#Loading {
+  position: relative;
+  left: 50%;
+  margin-left: -960px;
+}
+#Loading-btn {
+  position: absolute;
+  right: 750px;
+  top: 10px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background: rgba(0,0,0,0.2);
+  color: white;
+  font-size: 18px;
+  border: none;
+}
+/*垂直导航*/
+#VerNav {
+  height: 36px;
+  background: deepskyblue;
+}
+#VerNav-con {
+  height: 36px;
+  background: #f9f9f9;
+}
+/*左侧导航*/
+.VerNav-L {
+  height: 36px;
+  float: left;
+  ul {
+    width: 535px;
+    height: 36px;
+    background: #f9f9f9;
+    font-size: 12px;
+    color: #8c8c8c;
+    li {
+      float: left;
+      &:last-child {
+        position: relative;
+        a {
+          &:hover {
+            background: white;
+          }
+        }
+      }
+      a {
+        display: block;
+        height: 36px;
+        line-height: 36px;
+        padding: 0px 7px;
+        color: #8c8c8c;
+        background: url(../../images/bg.jpg) no-repeat right center;
+        &:hover {
+          color: #cb2a31;
+        }
+      }
+      .Spinner {
+        width: 118px;
+        height: 146px;
+        position: absolute;
+        left: -40px;
+        display: none;
+        background: white;
+        z-index: 21;
+        a {
+          color: #8c8c8c;
+          display: block;
+          text-align: center;
+          background: none;
+          &:hover {
+            color: #cb2a31;
+          }
+        }
+      }
+    }
+    i {
+      font-size: 10px;
+    }
+  }
+}
+.tNavL {
+  ul {
+    li {
+      &:last-child {
+        a {
+          background-image: none;
+        }
+      }
+    }
+  }
+}
+/*右边导航*/
+.VerNav-R {
+  width: 460px;
+  height: 36px;
+  background: #f9f9f9;
+  float: right;
+  ul {
+    li {
+      float: left;
+      font-size: 12px;
+      a {
+        display: block;
+        height: 36px;
+        line-height: 36px;
+        padding: 0px 8px;
+        color: #8c8c8c;
+        background: url(../images/bg.jpg) no-repeat right center;
+        &:hover {
+          color: #cb2a31;
+        }
+      }
+      &:first-child {
+        a {
+          background-image: none;
+        }
+      }
+      &:last-child {
+        a {
+          background-image: none;
+        }
+      }
+    }
+  }
+  span {
+    position: relative;
+    a {
+      text-align: center;
+      width: 75px;
+      float: right;
+      color: #8c8c8c;
+      font-size: 12px;
+      display: block;
+      height: 36px;
+      background: red;
+      line-height: 36px;
+      background: #f2f2f2;
+      &:hover {
+        color: #cb2a31;
+        background: white;
+      }
+    }
+  }
+  .shop {
+    position: absolute;
+    width: 460px;
+    height: 230px;
+    background: white;
+    z-index: 22;
+    top: 36px;
+    display: none;
+    text-align: center;
+    span {
+      margin: 20px 0px 0px 180px;
+      display: block;
+      width: 100px;
+      height: 100px;
+      border-radius: 50px;
+      background: #f4f4f4;
+      text-align: center;
+      padding-top: 20px;
+      i {
+        font-size: 50px;
+        margin-top: 47px;
+      }
+    }
+    b {
+      font-size: 12px;
+      color: #8c8c8c;
+    }
+    u {
+      width: 150px;
+      height: 40px;
+      display: block;
+      border: 1px solid #a4a4a4;
+      line-height: 40px;
+      font-size: 14px;
+      margin: 20px 0px 0px 155px;
+    }
+  }
+  #CusTomer {
+    position: relative;
+    a {
+      &:hover {
+        background: white;
+      }
+    }
+    .CusCenter {
+      width: 80px;
+      background: white;
+      display: none;
+      position: absolute;
+      z-index: 1;
+      a {
+        color: #8c8c8c;
+        background: none;
+        text-align: center;
+        &:hover {
+          color: #cb2a31;
+        }
+      }
+    }
+    i {
+      font-size: 10px;
+    }
+  }
+  #navigation {
+    .CusCenter1 {
+      background: white;
+      width: 892px;
+      height: 145px;
+      position: absolute;
+      left: -810px;
+      display: none;
+      z-index: 21;
+    }
+  }
+}
+/*  给第一个孩子去掉背景图*/
+/*  给最后一个孩子去掉背景图*/
+/*给购物车加样式*/
+/*购物车*/
+/*加下拉菜单*/
+/*客户服务*/
+/*网站导航*/
+#navigation {
+  position: relative;
+  .CusCenter1 {
+    li {
+      width: 156px;
+      height: 145px;
+      margin-left: 20px;
+      &:first-child {
+        margin-left: 0px;
+        a {
+          color: #8c8c8c;
+          margin-left: 45px;
+          &:hover {
+            color: #cb2a31;
+          }
+        }
+      }
+      &:nth-child(2) {
+        a {
+          background: none;
+          float: left;
+        }
+      }
+      &:nth-child(3) {
+        a {
+          background: none;
+          float: left;
+        }
+      }
+      &:nth-child(4) {
+        a {
+          background: none;
+          float: left;
+        }
+      }
+      &:nth-child(5) {
+        a {
+          background: none;
+          float: left;
+        }
+      }
+    }
+    p {
+      margin: 45px 0px 0px 50px;
+      width: 50px;
+      height: 50px;
+      background: #f7f7f7;
+      border-radius: 50px;
+      i {
+        font-size: 30px;
+        line-height: 50px;
+        margin-left: 10px;
+        color: #8c8c8c;
+      }
+    }
+    h3 {
+      font-size: 18px;
+      line-height: 18px;
+      margin: 10px 10px;
+    }
+  }
+  i {
+    font-size: 10px;
+  }
+}
+/*频道*/
+/*产品*/
+/*增值服务*/
+/*会员*/
+/*手机版的下拉菜单*/
+#Ver-ph {
+  position: relative;
+  .Phcon {
+    width: 245px;
+    height: 425px;
+    background: white;
+    position: absolute;
+    left: -175px;
+    display: none;
+    z-index: 21;
+    li {
+      height: 140px;
+      width: 245px;
+      border-bottom: 1px solid #e5e5e5;
+      .lr {
+        width: 90px;
+        height: 90px;
+        margin: 20px 25px;
+        float: left;
+        img {
+          width: 90px;
+          height: 90px;
+        }
+      }
+      .ll {
+        width: 100px;
+        height: 90px;
+        margin-top: 20px;
+        float: left;
+        span {
+          font-size: 14px;
+          font-weight: bold;
+        }
+        em {
+          font-size: 12px;
+          color: #cc312b;
+          line-height: 12px;
+        }
+        i {
+          font-size: 16px;
+          color: #797979;
+        }
+        b {
+          font-size: 7px;
+          color: #797979;
+        }
+        u {
+          display: block;
+          font-size: 12px;
+          color: #777777;
+          margin-bottom: 14px;
+        }
+      }
+    }
+  }
+  i {
+    font-size: 10px;
+  }
+}
+/*logo和主导航*/
+#MainNav {
+  height: 75px;
+  background: pink;
+}
+#MainNav-logo {
+  height: 75px;
+  h1 {
+    z-index: 10;
+    display: block;
+    width: 220px;
+    height: 75px;
+    float: left;
+    padding: 20px 0px 0px 8px;
+    img {
+      width: 196px;
+      height: 40px;
+    }
+  }
+}
+.oUl {
+  width: 600px;
+  height: 74px;
+  float: left;
+  margin-left: -20px;
+  li {
+    float: left;
+    margin-left: 28px;
+    height: 74px;
+    line-height: 74px;
+    &:nth-child(1) {
+      a {
+        background: #ff8486;
+        color: white;
+        border-radius: 10px;
+        &:hover {
+          opacity: 0.8;
+          color: white;
+        }
+      }
+    }
+    &:nth-child(2) {
+      a {
+        background: #74c7ff;
+        color: white;
+        border-radius: 10px;
+        &:hover {
+          opacity: 0.8;
+          color: white;
+        }
+      }
+    }
+    a {
+      font-size: 16px;
+      color: black;
+      &:hover {
+        color: #cb2a31;
+      }
+    }
+  }
+}
+/*banner*/
+#Banner {
+  height: 550px;
+  background: deepskyblue;
+}
+/*分类的导航*/
+#ClassNav {
+  height: 200px;
+  background: pink;
+}
+/*热销单品*/
+#HotSgoods {
+  height: 633px;
+  background: deepskyblue;
+}
+/*精品推荐*/
+#QuRecom {
+  height: 305px;
+  background: pink;
+}
+/*轮播图*/
+#RotationImg {
+  height: 120px;
+  background: deepskyblue;
+}
+/*手机*/
+#Phone {
+  min-height: 938px;
+  background: pink;
+}
+/*笔记本电脑*/
+#NoteCom {
+  height: 635px;
+  background: deepskyblue;
+}
+/*精品平板*/
+#QuaFlat {
+  height: 635px;
+  background: pink;
+}
+/*智能穿戴*/
+#SmWear {
+  height: 900px;
+  background: deepskyblue;
+}
+/*智能家居*/
+#SmHome {
+  height: 905px;
+  background: pink;
+}
+/*广告图*/
+#AdvertMap {
+  height: 120px;
+  background: deepskyblue;
+}
+/*热销配件*/
+#HotSell {
+  height: 900px;
+  background: pink;
+}
+/*品牌配件*/
+#BrandAcc {
+  height: 900px;
+  background: deepskyblue;
+}
+/*广告图*/
+#SadvertMap {
+  height: 200px;
+  background: pink;
+}
+/*footer*/
+#Foot {
+  height: 400px;
+  background: deepskyblue;
+}
