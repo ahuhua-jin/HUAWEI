@@ -25,11 +25,11 @@
 /*垂直导航*/
 #VerNav{
 	height: 36px;
-	background: deepskyblue;
+	background: #f9f9f9;
 }
 #VerNav-con{
 	height: 36px;
-	background: #F9F9F9;
+	
 }
 /*左侧导航*/
 .VerNav-L{
@@ -39,7 +39,6 @@
 .VerNav-L ul{
 	width: 535px;
 	height: 36px;
-	background: #f9f9f9;
 	font-size: 12px;
 	color: #8c8c8c;
 	}
@@ -130,7 +129,6 @@
 	font-size: 12px;
 	display: block;
 	height: 36px;
-	background: red;
 	line-height: 36px;
 	background: #f2f2f2;
 }
@@ -429,7 +427,6 @@
 /*logo和主导航*/
 #MainNav{
 	height: 75px;
-	background: pink;
 }
 #MainNav-logo{
 	height: 75px;
@@ -578,7 +575,6 @@
 /*banner*/
 #Banner{
 	height: 500px;
-	background: deepskyblue;
 }
 #Banner-con{
 	height: 500px;
@@ -672,38 +668,362 @@
 .p1{
 	width: 612px;
 }
-.p2,.p3,.p6{
+.p2{
 	width: 214px;
 	
 }
-.p4,.p5{
+.p3{
 	width: 816px;
+}
+
+.p1 ul{
+	width: 410px;
+	height: 440px;
+	float: left;
+	margin-left: 28px;
+}
+.p1-1 li{
+	width: 204px;
+	height: 80px;
+	margin-top: 24px;
+	float: left;
+	border-radius: 10px;
+}
+.p1-1 li:hover{
+	background: #f6f6f6;
+	border-radius: 10px;
+}
+.p1-1 li img{
+	float: left;
+	margin-left: 10px;
+}
+.p1-1 li p{
+	float: left;
+	line-height: 80px;
+	font-size: 12px;
+	color: #777777;
+	margin-left: 8px;
+}
+.p1 button{
+	display: block;
+	width: 135px;
+	height: 44px;
+	border: 1px solid #f2f2f2;
+	border-radius: 30px;
+	font-size: 12px;
+	color: #a7a7a7;
+	float: left;
+	background: none;
+	margin-top: 30px;
+	margin-left: 18px;
+}
+.p2 ul{
+	float: left;
+}
+.p2-1 li{
+	width: 204px;
+	height: 80px;
+	margin-top: 24px;
+	float: left;
+	border-radius: 10px;
+	margin-left: 10px;
+}
+.p2-1 li:hover{
+	background: #f6f6f6;
+	border-radius: 10px;
+}
+.p2-1 li img{
+	float: left;
+	margin-left: 10px;
+}
+.p2-1 li p{
+	float: left;
+	line-height: 80px;
+	font-size: 12px;
+	color: #777777;
+	margin-left: 8px;
+}
+.p2 button{
+	display: block;
+	width: 135px;
+	height: 44px;
+	border: 1px solid #f2f2f2;
+	border-radius: 30px;
+	font-size: 12px;
+	color: #a7a7a7;
+	float: left;
+	background: none;
+	margin-top: 45px;
+	margin-left: 30px;
+}
+
+.p3 ul{
+	width:816px ;
+	height: 440px;
+	float: left;
+}
+.p3-1 li{
+	width: 202px;
+	height: 80px;
+	margin-top: 24px;
+	float: left;
+	border-radius: 10px;
+}
+.p3-1 li:hover{
+	background: #f6f6f6;
+	border-radius: 10px;
+}
+.p3-1 li img{
+	float: left;
+	margin-left: 10px;
+}
+.p3-1 li p{
+	float: left;
+	line-height: 80px;
+	font-size: 12px;
+	color: #777777;
+	margin-left: 8px;
+}
+.p3-1 button{
+	display: block;
+	width: 135px;
+	height: 44px;
+	border: 1px solid #f2f2f2;
+	border-radius: 30px;
+	font-size: 12px;
+	color: #a7a7a7;
+	float: left;
+	background: none;
+	margin-top: 40px;
+	margin-left: 10px;
 }
 /*分类的导航*/
 #ClassNav{
 	height: 200px;
-	background: pink;
+}
+#ClassNav li{
+	width: 290px;
+	height: 200px;
+	float: left;
+	margin-left: 14px;
+}
+#ClassNav li:first-child{
+	margin-left: 0;
 }
 /*热销单品*/
 #HotSgoods{
 	height: 633px;
-	background: deepskyblue;
+	margin-top: 40px;
+}
+#HotSgoods h2{
+	font-size: 24px;
+	line-height: 24px;
+}
+#HotBox{
+	height: 592px;
+	margin-top: 18px;
+}
+.HotboxL{
+	width: 230px;
+	height: 592px;
+	float: left;
+}
+.HotboxR{
+	float: left;
+	width: 972px;
+	height: 592px;
+	float: left;
+}
+.HotboxR li{
+	width: 230px;
+	height: 290px;
+	background: #f9f9f9;
+	margin-left: 10px;
+	float: left;
+	text-align: center;
+	border-radius: 10px;
+	margin-top: 5px;
+	
+}
+.HotboxR li:hover{
+	box-shadow: 0px 2px 7px 6px #aaaaaa;
+	background: white;
+}
+.HotboxR li img{
+	width: 150px;
+	height: 150px;
+	margin: 35px 0px 0px 40px;
+	
+}
+.HotboxR li h3{
+	font-size: 14px;
+	margin-top: 16px;
+}
+.HotboxR li h4{
+	font-size: 12px;
+	color: #838383;
+}
+.HotboxR li p{
+	font-size: 14px;
+	color: #d7021b;
 }
 /*精品推荐*/
 #QuRecom{
-	height: 305px;
-	background: pink;
+	height: 364px;
+	margin-top: 40px;
+	overflow: hidden;
+}
+
+#QuRecom h2{
+	font-size: 24px;
+	line-height: 54px;
+	display: block;
+	height: 53px;
+	
+}
+.QuList{
+	height: 295px;
+	margin-top: 12px;
+	width: 2500px;
+}
+.QuList li:first-child{
+	margin-left: 0px;
+}
+.QuList li{
+	width: 241px;
+	height: 295px;
+	margin-left: 10px;
+	text-align: center;
+	float: left;
+}
+.QuList li p{
+	width: 242px;
+	height: 230px;
+	border-radius: 10px;
+	padding: 20px 0px 0px 50px;
+	text-align: center;
+}
+.QuList li p img{
+	width: 150px;
+	height: 150px;
+
+}
+.QuList li p a{
+	display: block;
+	width: 242px;
+	height: 36px;
+	background: #f3f3f3;
+	margin:23px 0px 0px -50px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	line-height: 36px;
+	font-size: 14px;
+	color: #777;
+}
+.QuList li h3{
+	font-size: 14px;
+	line-height: 24px;
+	margin-top: 12px;
+}
+.QuList li h4{
+	font-size: 14px;
+	color: #d0021b;
+}
+
+#Qleft,#Qright{
+	position: absolute;
+	width: 38px;
+	height: 72px;
+	background: #f0f0f0;
+	font-size: 20px;
+	text-align: center;
+	line-height: 75px;
+	top: 1760px;
+	
+}
+#Qleft i,#Qright i{
+	font-size: 20px;
+}
+#Qleft {
+	left:75px;
+	border-top-right-radius:10px ;
+	border-bottom-right-radius:10px ;
+}
+#Qright{
+	right:73px;
+	border-top-left-radius:10px ;
+	border-bottom-left-radius:10px ;
 }
 /*轮播图*/
 #RotationImg{
 	height: 120px;
-	background: deepskyblue;
+	margin-top: 36px;
+	position: relative;
+}
+#RotationImg ul li{
+	position: absolute;
+}
+#RotationImg ol{
+	position: absolute;
+	z-index: 10;
+	bottom: 0;
+	right: 45px;
+}
+#RotationImg ol li{
+	float: left;
+    width: 12px;
+    height: 12px;
+    margin: 0 3px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor: default;
+  
+}
+#RotationImg ol li.current{
+        background: white;
 }
 /*手机*/
 #Phone{
-	min-height: 938px;
+	height: 938px;
 	background: pink;
+	margin-top: 42px;
 }
+.PhoTop{
+	height: 30px;
+	background: greenyellow;
+	line-height: 30px;
+}
+.PhoTop h2{
+	font-size: 24px;
+	float: left;
+}
+.PhoTop ul{
+	width: 915px;
+	height: 30px;
+	float: left;
+}
+.PhoTop ul li{
+	font-size: 12px;
+	float: left;
+	margin-left: 25px;
+}
+.PhoTop ul li a{
+	color: #9999b2;
+}
+.PhoTop ul li a:hover{
+	color: #cb242b;
+}
+.PhoTop p{
+	float: right;
+	
+}
+.PhoTop p a{
+	font-size: 12px;
+	color: black;
+	margin-right: 12px;
+}
+
 /*笔记本电脑*/
 #NoteCom{
 	height: 635px;
