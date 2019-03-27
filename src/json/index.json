@@ -1,0 +1,155 @@
+{
+	"phone":{
+		"list":[
+		{
+			"id":"phone1",
+			"src":"ph-2.png",
+			"src1":"c3.png",
+			"src2":"ipd2.png",
+			"src3":"smf2.png",
+			"src4":"smw2.png",
+			"src5":"hot2.png",
+			"src6":"bra2.png",
+			"name":"华为畅享9 Plus",
+			"text":"四射全面屏",
+			"price":"1499"
+		},
+		{
+			"id":"phone2",
+			"src":"ph-3.png",
+			"src1":"c2.png",
+			"src2":"ipd3.png",
+			"src3":"smf3.png",
+			"src4":"smw3.png",
+			"src5":"hot3.png",
+			"src6":"bra3.png",
+			"name":"华为畅享9 Plus",
+			"text":"四射全面屏",
+			"price":"1499"
+		},
+		{
+			"id":"phone3",
+			"src":"ph-4.png",
+			"src1":"c3.png",
+			"src2":"ipd4.png",
+			"src3":"smf4.png",
+			"src4":"smw4.png",
+			"src5":"hot4.png",
+			"src6":"bra4.png",
+			"name":"华为畅享9 Plus",
+			"text":"四射全面屏",
+			"price":"1499"
+		},
+		{
+			"id":"phone4",
+			"src":"ph-5.png",
+			"src1":"c4.png",
+			"src2":"ipd5.png",
+			"src3":"smf5.png",
+			"src4":"smw5.png",
+			"src5":"hot5.png",
+			"src6":"bra5.png",
+			"name":"华为畅享9 Plus",
+			"text":"四射全面屏",
+			"price":"1499"
+		},
+		{
+			"id":"phone5",
+			"src":"ph-6.png",
+			"src1":"c5.png",
+			"src2":"ipd6.png",
+			"src3":"smf6.png",
+			"src4":"smw6.png",
+			"src5":"hot6.png",
+			"src6":"bra6.png",
+			"name":"华为畅享9 Plus",
+			"text":"四射全面屏",
+			"price":"1499"
+		},
+		{
+			"id":"phone6",
+			"src":"ph-7.png",
+			"src1":"c6.png",
+			"src2":"ipd7.png",
+			"src3":"smf7.png",
+			"src4":"smw7.png",
+			"src5":"hot7.png",
+			"src6":"bra7.png",
+			"name":"华为畅享9 Plus",
+			"text":"四射全面屏",
+			"price":"1499"
+		},
+		{
+			"id":"phone7",
+			"src":"ph-8.png",
+			"src1":"c7.png",
+			"src2":"ipd8.png",
+			"src3":"smf8.png",
+			"src4":"smw8.png",
+			"src5":"hot8.png",
+			"src6":"bra8.png",
+			"name":"华为畅享9 Plus",
+			"text":"四射全面屏",
+			"price":"1499"
+		},
+		{
+			"id":"phone8",
+			"src":"ph-9.png",
+			"src1":"c6.png",
+			"src2":"ipd8.png",
+			"src3":"smf9.png",
+			"src4":"smw9.png",
+			"src5":"hot9.png",
+			"src6":"bra9.png",
+			"name":"华为畅享9 Plus",
+			"text":"四射全面屏",
+			"price":"1499"
+		},
+		{
+			"id":"phone9",
+			"src":"ph-10.png",
+			"src1":"c8.png",
+			"src2":"ipd10.png",
+			"name":"华为畅享9 Plus",
+			"text":"四射全面屏",
+			"price":"1499"
+		},
+		{
+			"id":"phone10",
+			"src":"ph-11.png",
+			"name":"华为畅享9 Plus",
+			"text":"四射全面屏",
+			"price":"1499"
+		},
+		{
+			"id":"phone11",
+			"src":"ph-12.png",
+			"name":"华为畅享9 Plus",
+			"text":"四射全面屏",
+			"price":"1499"
+		},
+		{
+			"id":"phone12",
+			"src":"ph-13.png",
+			"name":"华为畅享9 Plus",
+			"text":"四射全面屏",
+			"price":"1499"
+		},
+		{
+			"id":"phone13",
+			"src":"ph-14.png",
+			"name":"华为畅享9 Plus",
+			"text":"四射全面屏",
+			"price":"1499"
+		},
+		{
+			"id":"phone14",
+			"src":"ph-15.png",
+			"name":"华为畅享9 Plus",
+			"text":"四射全面屏",
+			"price":"1499"
+		}
+		]
+	}
+}
+

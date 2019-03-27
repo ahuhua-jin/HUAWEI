@@ -1,0 +1,1 @@
+var btn=document.getElementById("btn"),sname=document.getElementById("uname"),pwd=document.getElementById("upwd"),str=getCookie("infor"),userN=str.uname,userP=str.upwd;$("#btn").click(function(){$("#uname").val()==userN&&$("#upwd").val()==userP?(alert("登录成功"),window.location.href="../html/index.html"):alert("登录失败")});
